@@ -1,0 +1,21 @@
+ netdata.service - netdata - Real-time performance monitoring
+     Loaded: loaded (/usr/lib/systemd/system/netdata.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-03-09 14:31:25 UTC; 11min ago
+       Docs: man:netdata
+             file:///usr/share/doc/netdata/html/index.html
+             https://github.com/netdata/netdata
+   Main PID: 1964 (netdata)
+      Tasks: 57 (limit: 2237)
+     Memory: 45.5M (peak: 57.7M)
+        CPU: 8.504s
+     CGroup: /system.slice/netdata.service
+             ├─1964 /usr/sbin/netdata -D
+             ├─1968 /usr/sbin/netdata --special-spawn-server
+             ├─2174 /usr/lib/netdata/plugins.d/apps.plugin 1
+             ├─2179 /usr/lib/netdata/plugins.d/nfacct.plugin 1
+             └─2181 bash /usr/lib/netdata/plugins.d/tc-qos-helper.sh 1
+
+Mar 09 14:31:25 ubuntu systemd[1]: Started netdata.service - netdata - Real-time performance monitoring.
+Mar 09 14:31:25 ubuntu netdata[1964]: 2026-03-09 14:31:25: netdata INFO  : MAIN : CONFIG: cannot load cloud config '/var/lib/netdata/cloud.d>
+Mar 09 14:31:25 ubuntu netdata[1964]: 2026-03-09 14:31:25: netdata INFO  : MAIN : Found 0 legacy dbengines, setting multidb diskspace to 256>
+Mar 09 14:31:25 ubuntu netdata[1964]: 2026-03-09 14:31:25: netdata INFO  : MAIN : Created file '/var/lib/netdata/dbengine_multihost_size' to>
