@@ -27,20 +27,3 @@ The project simulates a basic DevOps monitoring pipeline where system metrics ar
 
 ---
 
-## Project Structure
-linux-monitoring-dashboard
-│
-├── configs
-│   └── netdata.conf
-│
-├── docs
-│   ├── architecture.md
-│   └── usage.md
-│
-├── logs
-│
-├── scripts
-│   ├── setup.sh
-│   └── system_monitor.sh
-│
-└── README.md
