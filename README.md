@@ -26,4 +26,4 @@ The project simulates a basic DevOps monitoring pipeline where system metrics ar
 - DevOps automation
 
 ---
-
+https://roadmap.sh/projects/simple-monitoring-dashboard
