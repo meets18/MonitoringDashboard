@@ -1,4 +1,4 @@
-# Netdata Monitoring Dashboard (DevOps Project)
+# Netdata Monitoring Dashboard
 
 This project demonstrates automated deployment and testing of a real-time system monitoring dashboard using **Netdata**.
 
